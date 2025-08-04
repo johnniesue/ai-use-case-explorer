@@ -23,12 +23,15 @@
       border-radius: 12px;
       box-shadow: 0 2px 6px rgba(0,0,0,0.1);
     }
-    .intro h2 {
+    .intro h2, .intro h3 {
       color: #007bff;
     }
-    .intro p {
+    .intro p, .intro ul {
       line-height: 1.6;
       color: #444;
+    }
+    .intro ul {
+      padding-left: 1.25rem;
     }
     .category {
       background: #fff;
@@ -66,7 +69,30 @@
 
   <div class="intro">
     <h2>What is This?</h2>
-    <p>This is a simple, interactive guide to help beginners understand and explore how artificial intelligence tools can support everyday life, work, finances, learning, and more. Whether you're brand new to AI or just looking for real-life examples, this site will walk you through practical use cases using tools like ChatGPT, Claude, Perplexity, Replit, Firebase Studio, and others.</p>
+    <p>This site is your beginner-friendly launchpad for exploring real-world AI tools that work together to help you get things done faster, smarter, and cheaper — without needing a tech background.</p>
+
+    <p>Think of it like a roadmap. It connects powerful apps that are free or low-cost — like ChatGPT for brainstorming, Replit for building small apps, and Firebase Studio for storing data or automating workflows. Instead of just hearing “AI is cool,” this site shows you how to use it — right now — for things you actually care about.</p>
+
+    <p>Even if you've never used AI before, this guide is for you.</p>
+
+    <h3>Real-World Use Case Examples</h3>
+    <ul>
+      <li><strong>Meal Planner:</strong> Use ChatGPT to build your weekly meal plan and grocery list, then send it to a printable format or app via Replit.</li>
+      <li><strong>Workout Scheduler:</strong> Ask Gemini to recommend routines and track your workouts in a Firebase dashboard.</li>
+      <li><strong>Invoice Tracker:</strong> Create invoices with ChatGPT, build the tracker in Replit, and store data in Firebase Studio.</li>
+      <li><strong>Job Prep Assistant:</strong> Use Claude to review your resume, generate cover letters, and simulate interview questions.</li>
+      <li><strong>Study Tool Generator:</strong> Upload notes to NotebookLM, generate flashcards with ChatGPT, and quiz yourself daily.</li>
+      <li><strong>Trip Planner:</strong> Ask Perplexity to find hidden local spots, create the itinerary in ChatGPT, and turn it into a mobile-friendly site with Framer.</li>
+    </ul>
+
+    <h3>Sample AI Workflows</h3>
+    <p>
+      AI tools are even more powerful when used together:
+      <br /><br />
+      <strong>Example 1:</strong> Use ChatGPT to write your content → Paste into Canva to design a flyer → Share with your customers<br />
+      <strong>Example 2:</strong> Use ChatGPT to plan a budgeting app → Build it in Replit → Store your spending data in Firebase<br />
+      <strong>Example 3:</strong> Use Perplexity to research side hustle ideas → Use Claude to write a business plan → Launch a landing page with Framer
+    </p>
 
     <h2>How to Get the Most Out of AI — The "Crab Way"</h2>
     <p><strong>Context:</strong> Start with who the AI is helping and why.<br />
@@ -81,120 +107,66 @@
   <div class="category">
     <h2>General Productivity</h2>
     <ul class="tool-list">
-      <li>
-        <a href="https://chat.openai.com" target="_blank">ChatGPT</a><br />
-        <span class="description">AI assistant for writing, organizing tasks, and answering questions in natural language.</span>
-      </li>
-      <li>
-        <a href="https://gemini.google.com" target="_blank">Gemini</a><br />
-        <span class="description">Google’s AI chat tool for visual analysis, research help, and productivity guidance.</span>
-      </li>
-      <li>
-        <a href="https://www.perplexity.ai/" target="_blank">Perplexity</a><br />
-        <span class="description">An AI-powered research and search assistant with citation support and summarization.</span>
-      </li>
+      <li><a href="https://chat.openai.com" target="_blank">ChatGPT</a><br /><span class="description">Conversational AI for brainstorming, summarizing, writing, and answering questions.</span></li>
+      <li><a href="https://gemini.google.com" target="_blank">Gemini</a><br /><span class="description">Google’s assistant for analyzing images, planning tasks, and searching visually.</span></li>
+      <li><a href="https://www.perplexity.ai/" target="_blank">Perplexity</a><br /><span class="description">Fast, research-based AI that provides concise answers with sources.</span></li>
     </ul>
   </div>
 
   <div class="category">
     <h2>Work Productivity</h2>
     <ul class="tool-list">
-      <li>
-        <a href="https://claude.ai" target="_blank">Claude</a><br />
-        <span class="description">AI assistant designed for long-form writing, summarizing meetings, and email responses.</span>
-      </li>
-      <li>
-        <a href="https://firebasestudio.web.app" target="_blank">Firebase Studio</a><br />
-        <span class="description">No-code dashboard and workflow builder for managing tasks and data with Google Firebase.</span>
-      </li>
-      <li>
-        <a href="https://workspace.google.com/" target="_blank">Google Workspace</a><br />
-        <span class="description">Google's productivity suite (Docs, Sheets, Gmail) now enhanced with AI-powered tools.</span>
-      </li>
+      <li><a href="https://claude.ai" target="_blank">Claude</a><br /><span class="description">Ideal for editing, rewriting, summarizing long documents and professional reports.</span></li>
+      <li><a href="https://firebasestudio.web.app" target="_blank">Firebase Studio</a><br /><span class="description">No-code platform to create dashboards, forms, and automate data handling.</span></li>
+      <li><a href="https://workspace.google.com/" target="_blank">Google Workspace</a><br /><span class="description">Docs, Sheets, and Slides now boosted with smart AI writing and formulas.</span></li>
     </ul>
   </div>
 
   <div class="category">
     <h2>Daily Life</h2>
     <ul class="tool-list">
-      <li>
-        <a href="https://chat.openai.com" target="_blank">ChatGPT</a><br />
-        <span class="description">Plan meals, get outfit suggestions, troubleshoot home issues, and more.</span>
-      </li>
-      <li>
-        <a href="https://www.lovable.so" target="_blank">Lovable</a><br />
-        <span class="description">Lifestyle-focused AI to help with home tasks, routines, and daily planning.</span>
-      </li>
+      <li><a href="https://www.lovable.so" target="_blank">Lovable</a><br /><span class="description">Lifestyle-focused AI for interior ideas, self-care, shopping, and routines.</span></li>
+      <li><a href="https://chat.openai.com" target="_blank">ChatGPT</a><br /><span class="description">Ask for outfit planning, fridge-based meals, and home DIY repair guidance.</span></li>
     </ul>
   </div>
 
   <div class="category">
     <h2>Personal Finance</h2>
     <ul class="tool-list">
-      <li>
-        <a href="https://www.perplexity.ai/" target="_blank">Perplexity</a><br />
-        <span class="description">Use it for financial research, comparing investment strategies, and exploring accounts.</span>
-      </li>
-      <li>
-        <a href="https://replit.com" target="_blank">Replit</a><br />
-        <span class="description">Great for building your own expense tracker or automation using lightweight code.</span>
-      </li>
+      <li><a href="https://replit.com" target="_blank">Replit</a><br /><span class="description">Use it to code custom calculators, finance trackers, or automation bots.</span></li>
+      <li><a href="https://www.perplexity.ai/" target="_blank">Perplexity</a><br /><span class="description">Deep dive into investments, tax strategies, or retirement account comparisons.</span></li>
     </ul>
   </div>
 
   <div class="category">
     <h2>Learning</h2>
     <ul class="tool-list">
-      <li>
-        <a href="https://notebooklm.google" target="_blank">NotebookLM</a><br />
-        <span class="description">AI-powered learning assistant to summarize, quiz, and explain material from documents.</span>
-      </li>
-      <li>
-        <a href="https://chat.openai.com" target="_blank">ChatGPT</a><br />
-        <span class="description">Ask for study guides, practice quizzes, worked examples, and mnemonic devices.</span>
-      </li>
+      <li><a href="https://notebooklm.google" target="_blank">NotebookLM</a><br /><span class="description">AI that reads your uploaded notes and creates study guides and questions.</span></li>
+      <li><a href="https://chat.openai.com" target="_blank">ChatGPT</a><br /><span class="description">Ask for flashcards, memory tricks, worked math problems, or quiz practice.</span></li>
     </ul>
   </div>
 
   <div class="category">
     <h2>Career and Business</h2>
     <ul class="tool-list">
-      <li>
-        <a href="https://www.canva.com" target="_blank">Canva</a><br />
-        <span class="description">Create resumes, business cards, marketing materials, and social media content with ease.</span>
-      </li>
-      <li>
-        <a href="https://www.framer.com/ai" target="_blank">Framer AI</a><br />
-        <span class="description">Rapidly generate beautiful landing pages and product mockups with AI.</span>
-      </li>
+      <li><a href="https://www.canva.com" target="_blank">Canva</a><br /><span class="description">Design your resume, portfolio, flyers, or business cards using AI tools.</span></li>
+      <li><a href="https://www.framer.com/ai" target="_blank">Framer AI</a><br /><span class="description">Auto-build landing pages, websites, or portfolios just by describing them.</span></li>
     </ul>
   </div>
 
   <div class="category">
     <h2>Relationships</h2>
     <ul class="tool-list">
-      <li>
-        <a href="https://chat.openai.com" target="_blank">ChatGPT</a><br />
-        <span class="description">Use it to practice conversations, get advice, or rehearse for difficult discussions.</span>
-      </li>
+      <li><a href="https://chat.openai.com" target="_blank">ChatGPT</a><br /><span class="description">Roleplay conversations, practice tough talks, or get relationship tips.</span></li>
     </ul>
   </div>
 
   <div class="category">
     <h2>Vibe Coding Tools</h2>
     <ul class="tool-list">
-      <li>
-        <a href="https://replit.com" target="_blank">Replit</a><br />
-        <span class="description">Fast and beginner-friendly coding environment to build apps and test automations.</span>
-      </li>
-      <li>
-        <a href="https://code.visualstudio.com" target="_blank">VS Code</a><br />
-        <span class="description">Pro-level code editor for building more advanced AI agents and dashboards.</span>
-      </li>
-      <li>
-        <a href="https://warps.dev" target="_blank">Warp</a><br />
-        <span class="description">AI-enhanced terminal for developers who want powerful scripting and automation tools.</span>
-      </li>
+      <li><a href="https://replit.com" target="_blank">Replit</a><br /><span class="description">Great for beginners to build simple tools, bots, or full web apps.</span></li>
+      <li><a href="https://code.visualstudio.com" target="_blank">VS Code</a><br /><span class="description">Powerful desktop editor for advanced coding, automation, or AI integration.</span></li>
+      <li><a href="https://warps.dev" target="_blank">Warp</a><br /><span class="description">Modern AI-enhanced terminal to run scripts, automate, and debug code.</span></li>
     </ul>
   </div>
 
